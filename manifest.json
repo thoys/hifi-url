@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "HiFi URL Enabler",
+  "description": "Replaces hifi:// urls with href versions of it.",
+  "version": "0.2",
+  "version_name": "0.2a",
+  "author": "SydoxX",
+  "short_name": "HUE",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
