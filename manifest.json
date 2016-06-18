@@ -5,7 +5,7 @@
   "version": "0.2",
   "version_name": "0.2a",
   "author": "SydoxX",
-  "short_name": "HUE",
+  "short_name": "HFUE",
   "content_scripts": [
     {
       "matches": [
